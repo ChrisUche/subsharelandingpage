@@ -8,6 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundColor: {
+        'button': 'rgba(186, 250, 61, 1)',
+        'custom': 'rgba(0, 13, 10, 1)',
+        'customgreen': 'rgba(186, 250, 61, 1)' 
+      },
+      textColor: {
+        'custom': 'rgba(0, 13, 10, 1)',
+        'customgreen': 'rgba(186, 250, 61, 1)' 
+      },
+      borderColor: {
+        'custom': 'rgba(124, 167, 41, 1)',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
