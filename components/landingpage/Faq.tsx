@@ -6,9 +6,9 @@ import { questions } from "@/constants";
 
 
 export default function Faq() {
-            const [selectedQuestion, setSelectedQuestion] = useState<number | null>(null);    const handleQuestionClick = (index: number) => {
-                setSelectedQuestion(index === selectedQuestion ? null : index);
-            };    return (
+            const [selectedQuestion, setSelectedQuestion] = useState<number | null>(null);    
+            const handleQuestionClick = (index: number) => { setSelectedQuestion(index === selectedQuestion ? null : index);};    
+            return (
                 <>
                 <div className="flex flex-col items-center justify-center h-screen gap-20">
                     <div className='text-center mb-5'>
