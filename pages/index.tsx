@@ -8,6 +8,7 @@ import { Sharecolumn } from '@/components/landingpage/Sharecolumn'
 import { Testimonial } from '@/components/landingpage/Testimonial'
 import { Newsletter } from '@/components/landingpage/Newsletter'
 import { Footer } from '@/components/landingpage/Footer'
+import { Riskchecker } from '@/components/landingpage/Riskchecker'
 import Faq from '@/components/landingpage/Faq'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -22,6 +23,8 @@ export default function Home() {
       <Explorecolumn/>
 
       <Howitworks/>
+
+      <Riskchecker/>
 
       <Becomemember/>
 

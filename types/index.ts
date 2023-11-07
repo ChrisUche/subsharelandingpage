@@ -13,3 +13,14 @@ export interface CustomButtonProps {
     playstoreIcon?: string;
     isDisabled?: boolean;
 }
+
+export interface OptionProps{
+    title: string | number;
+    value: number | string;
+}
+
+export interface CustomFilterProps{
+    title: string;
+    options: OptionProps[];
+    setFilter:any
+}

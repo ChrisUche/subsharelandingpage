@@ -12,10 +12,10 @@ export const Navbar = () => {
             </div>
 
             <div className='flex  gap-[51px]'>
-                <p>Home</p>
-                <p>About</p>
-                <p>FAQ</p>
-                <p>Contact Us</p>
+                <p className='cursor-pointer'>Home</p>
+                <p className='cursor-pointer'>About</p>
+                <p className='cursor-pointer'>FAQ</p>
+                <p className='cursor-pointer'>Contact Us</p>
             </div>
 
             <button className='flex items-center justify-between bg-button p-[12px] gap-10 rounded-lg'>
