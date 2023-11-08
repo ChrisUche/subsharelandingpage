@@ -45,7 +45,7 @@ export const Explorecolumn = () => {
 
             <div className='flex-col gap-[18px] md:w-[480px]  md:h-[136px]'>
               <h2 className='font-bold text-3xl text-white flex mb-2 md:mb-4  md:text-4xl'>
-                Explore the Limitless <br/> Potential of Subshare!
+                Explore the Limitless <br/> Potential of FTsub!
               </h2>
               
               <div>
@@ -59,7 +59,7 @@ export const Explorecolumn = () => {
                 <h3 className='font-semibold text-2xl text-white mb-3'>
                   Create Strong Bonds, Share Expenses
                 </h3>
-                <p className='text-white'>Subshare, Where Friendship Counts.</p>
+                <p className='text-white'>FTsub, Where Friendship Counts.</p>
               </div>
             </div>
 

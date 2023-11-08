@@ -9,8 +9,8 @@ export const Footer = () => {
             <div className='flex max-md:flex-col flex-wrap justify-between gap-6 px-6 py-10 sm:px-16'>
                 <div className='flex flex-col justify-start items-start gap-5'>
                     <div className='flex justify-center items-center'>
-                        <Image width={45} height={18} src="/assets/images/logo/Logo.png" className=" cursor-pointer" alt="logo" />
-                        <p className='font-bold text-base text-white'>SUBSHARE </p>
+                        {/* <Image width={45} height={18} src="/assets/images/logo/Logo.png" className=" cursor-pointer" alt="logo" /> */}
+                        <p className='font-bold text-base text-white'>FTSUB </p>
                     </div>
                     <p className='font-normal text-base text-white'>...Maximizing subscriptions </p>
 
@@ -47,7 +47,7 @@ export const Footer = () => {
             </div>
 
             <div className='flex justify-center items-center flex-wrap mt-10 px-6 py-10 sm:px-16'>
-                    <p className='text-white'> &copy;2023 Subshare. All Rights Reserved</p>
+                    <p className='text-white'> &copy;2023 FTsub. All Rights Reserved</p>
             </div>
         </footer>
     </>

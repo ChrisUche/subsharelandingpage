@@ -19,10 +19,10 @@ export const footerLinks = [
   export const questions = [
     {
       question: "Can I control who has access to my subscriptions?",
-      answer: "Subshare is a management and payment solution tool for group subscription plans. It allows family, friends, housemates and co-workers! connect and split costs.",
+      answer: "FTsub is a management and payment solution tool for group subscription plans. It allows family, friends, housemates and co-workers! connect and split costs.",
     },
     {
-      question: "Why should I sign up to subshare?",
+      question: "Why should I sign up to ftsub?",
       answer: "Answer to question 2.",
     },
     {
@@ -30,7 +30,7 @@ export const footerLinks = [
         answer: "Answer to question 3.",
     },
     {
-        question: "How does subshare works?",
+        question: "How does ftsub works?",
         answer: "Answer to question 4.",
     },
     // Add more questions and answers as needed

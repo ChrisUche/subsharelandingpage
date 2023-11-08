@@ -23,7 +23,7 @@ export const Becomemember = () => {
                     className='absolute mb-20 right-2.5' />
         <div className='flex-col items-center md:w-[480px] md:h-[160px] px-10 mb-80 z-30'>
           <h1 className='font-bold text-3xl text-white mb-5 md:text-5xl'>
-            Be a member of subshare with no cost. You&apos;re Just a Download Away!
+            Be a member of ftsub with no cost. You&apos;re Just a Download Away!
           </h1>
 
           <div className='flex gap-4'>
