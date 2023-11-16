@@ -4,7 +4,7 @@ import { CustomButton } from '../CustomButton'
 export const Newsletter = () => {
   return (
     <>
-       <div className='relative bg-customgreen w-[1000px] h-[460px] self-center rounded-2xl flex items-start justify-center'>
+       <div className='relative bg-customgreen w-full md:w-[1000px]  self-center rounded-2xl flex items-start justify-center'>
             <div className='bg-white w-[750px] h-[300px] rounded-tl-none rounded-tr-none rounded-br-2xl rounded-bl-2xl'>
                 <div className='h-full flex flex-col items-center justify-center'>
                 <h1 className='font-bold text-lg mb-5 text-black md:text-4xl'>Subscribe To Our Newsletter</h1>
