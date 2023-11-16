@@ -14,8 +14,8 @@ import { Listbox, Transition } from "@headlessui/react";
 import { CustomFilterProps } from "@/types";
 
 export const Riskchecker = () => {
-   const [riskScore,setRiskScore] = useState(7)
-   const [risk,setRisk] = useState([])
+   const [riskScore,setRiskScore] = useState(7);
+   const [risk, setRisk] = useState<any[]>([]); 
    const [selected, setSelected] = useState(riskLevel[0]); 
   
     //filter states
